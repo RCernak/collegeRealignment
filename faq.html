@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title> College Realignment </title>
+  <!-- <base href="https://www.collegeRealignment.com/" target="_blank"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <meta name="Description" content="Create your own custom conference realignment maps!">
+  <meta name="Keywords" content="Conference Realignment, College Sports, College Football, College Basketball, Conferences">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    a.button:link, a.button:visited {
+      background-color: #00009f;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a.button:hover, a.button:active {
+      background-color: #000065;
+    }
+    a.disabled {
+      pointer-events: none;
+    }
+    * {
+        margin: 10;
+        padding: 0;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
+    .img-overlay-wrap {
+      position: relative;
+      display: inline-block; /* <= shrinks container to image size */
+      transition: transform 150ms ease-in-out;
+    }
+    .img-overlay-wrap svg {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    .hidden {
+      display: none;
+    }
+    form {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      left: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+<p style="height:60px; background-color:black; color:white;">
+<a href="https://www.collegerealignment.com">
+<img src="CRLogo.png" style="float:left;width:201px;height:67px;" title="Home Page">
+</a>
+</p>
+
+<h1>FAQ</h1>
+
+<h2> What is this? </h2>
+
+<p> CollegeRealignment.com is a site where you can make your own maps of college sports conferences,
+ 	in order to quickly visualize different conference realignment scenarios. </p>
+
+<h2> Are you planning on adding more teams? </h2>
+
+<p> Yes, I will add the rest of division 1 at the very least, and hope to add division 2 and 3 teams as
+	well, as long as I can do so without cluttering up the site too much. </p>
+
+<h2> Are there any other changes you're planning on making? </h2>
+
+<p> Yep! I want a button that takes a screenshot of a custom map so it can be shared more easily,
+	but that is a harder problem than I realized. A few people suggested using team logos instead
+	of name on the map, so I may try to do that as well. </p>
+
+<h2> Do you have any other plans for the site? </h2>
+
+<p> None right now, but I do wish there were more online interactive for college sports, since I think
+	that a lot of people would enjoy using them. If there's some other interactive that I want to
+	exist but no one else makes it, I'll probably end up just making it myself. </p>
+
+<h2> Has anyone actually asked these questions? </h2>
+
+<p> No. </p>
+
+<h2> How can we get in touch? </h2>
+
+<p> I am on twitter (<a href='https://twitter.com/CollegeRealign' target="_blank">@CollegeRealign</a>),
+	so feel free to send me your cool maps (or tell me about any bugs) there. </p>
+
+
+<h2>Recent Updates:</h2>
+<p>
+<strong>8/4/23:</strong><br>
+  Created UAC, updated OU and UT move date, and moved Pac-12 schools to Big 12/ Big 10.
+<br><br>
+<strong>7/29/22:</strong><br>
+  Hawaii placed on the correct island.
+<br><br>
+<strong>7/11/22:</strong><br>
+  Lamar is now joining the WAC in 2022 instead of 2023.
+  <br> Dixie St. is now Utah Tech.
+<br><br>
+<strong>7/1/22:</strong><br>
+  Added UCLA and USC to Big Ten
+<br><br>
+<strong>6/28/22:</strong><br>
+  Added way to select different years from 2021-2025.
+  <br> Updated default conferences to 2022 (SunBelt additions).
+<br><br>
+<strong>10/22/21:</strong><br>
+  Added FAQ page.
+<br><br>
+<strong>8/14/21:</strong><br>
+  Added option to reset map.
+<br><br>
+<strong>8/2/21:</strong><br>
+  Fixed how hiding team names/conferences worked together.
+  <br>Team names now more clickable when page is first loaded.
+<br><br>
+<strong>8/1/21:</strong><br>
+  Added FCS Teams.
+  <br> Added option to only show team names on hover.
+<br><br>
+<strong>7/29/21:</strong><br>
+  Added a way to hide conferences.
+  <br>Moved conference legend up to fit more conferences.
+  <br>Site now automatically redirects to https.
+<br><br>
+<strong> 7/28/21:</strong><br>
+Launched site.
+</p><br><br>
+
+
+</body>
+</html>
